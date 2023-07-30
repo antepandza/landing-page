@@ -1,0 +1,89 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Block 1 Starts Here*/
+
+.BlockOne{
+background-color: #1f2937;
+padding: 50px;
+}
+
+/* Header Section */
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+
+.HeaderLogo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+.Links{
+    display: flex;
+    gap: 18px;
+}
+
+
+/*Text & Image Section*/
+
+.Content{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    
+
+}
+
+.TextStuff{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Headline{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.Subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.Button{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    border-radius: 1000px;
+}
+
+/* Block 1 Ends */
+/* Block 2 Starts */
+
