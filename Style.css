@@ -1,5 +1,5 @@
 html,body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -8,7 +8,8 @@ html,body{
 
 .BlockOne{
 background-color: #1f2937;
-padding: 50px;
+padding-top: 20px;
+padding-bottom: 150px;
 }
 
 /* Header Section */
@@ -17,13 +18,17 @@ padding: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-left: 210px;
+    margin-right: 210px;
 }
 
 .HeaderLogo{
+    margin-right: auto;
     font-size: 24px;
     color: #f9faf8;
+    min-width: 140px;
+    flex-shrink: 0px;
 }
 
 a{
@@ -36,6 +41,8 @@ a{
 .Links{
     display: flex;
     gap: 18px;
+    min-width: 420px;
+    flex-shrink: 0px;
 }
 
 
@@ -84,6 +91,152 @@ img{
     border-radius: 1000px;
 }
 
+.DuckBlurb{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-style: italic;
+    color: #e5e7eb;
+    padding-top: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.smallfont{
+font-size: 20px;
+}
+
 /* Block 1 Ends */
 /* Block 2 Starts */
 
+.BlockTwo{
+    background-color:#f9faf8;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    }
+.RandomInfo{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+.FourBoxes{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.BlueSquare{
+    border: 5px solid #3882f6;
+    border-radius: 50px;
+    width: 200px;
+    height:200px;
+    margin-bottom: 20px;
+}
+.Box{
+    max-width: 200px;
+}
+
+/*Block 2 Ends*/
+/*Block 3 Starts*/
+
+.BlockThree{
+    display: flex;
+    flex-direction: column;
+    background-color:#e5e7eb;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.Quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.Author{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+}
+/*Block 3 Ends*/
+/*Block 4 Starts*/
+.BlockFour{
+    display: flex;
+    flex-direction: row;
+    background-color:#f9faf8;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlueBox{
+    display: flex;
+    background-color: #3882f6;
+    border: 3px solid #646464;
+    border-style:outset;
+    height: 100px;
+    width: 600px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.InnerBox{
+    display: flex;
+}
+.TextBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+    
+    
+}
+
+.SubText2{
+color: #f9faf8;
+}
+.SubText3{
+color: #f9faf8;
+
+}
+
+.NewButton{
+    display: flex;
+    font-size: small;
+    background-color: #89a7d8;
+    border: 2px solid #f9faf8;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+/*Block 4 ends*/
+/*Block 5 Starts*/
+.BlockFive{
+    display: flex;
+    height: 50px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    }
